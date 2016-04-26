@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+#$ -cwd
+#$ -j y
+#$ -N my100
+#$ -m es
+#$ -V
+#$ -M brian.mathew.richer@utexas.edu
+#$ -o ll_out
+#$ -S /bin/bash
+
+./calculate100.py
+
+
+

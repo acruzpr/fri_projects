@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+#$ -cwd
+#$ -j y
+#$ -N lj38_8000k
+#$ -m es
+#$ -V
+#$ -M  youremail
+#$ -o ll_out
+#$ -S /bin/bash
+
+python basin_hopping.py
+
+
+

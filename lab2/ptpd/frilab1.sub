@@ -1,0 +1,16 @@
+#!/bin/bash
+#
+#$ -cwd
+#$ -j y
+#$ -N ptpd
+#$ -m es
+#$ -V
+#$ -M brian.mathew.richer@utexas.edu
+#$ -pe mpi8 8
+#$ -o ll_out
+#$ -S /bin/bash
+
+mpirun -n $NSLOTS vasp_gamma
+
+
+

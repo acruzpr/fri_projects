@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+#$ -cwd
+#$ -j y
+#$ -N Sr_O_3
+#$ -m es
+#$ -V
+#$ -M youremail
+#$ -pe mpi8 8
+#$ -o ll_out
+#$ -S /bin/bash
+
+mpirun -n $NSLOTS vasp
+

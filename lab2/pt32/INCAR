@@ -1,0 +1,18 @@
+SYSTEM = Pt cube particle
+IBRION=2 #minimize
+POTIM=0.1
+ISYM=0
+#ISMEAR=-1;SIGMA=.1
+NSW=200 #max iterations
+EDIFF=1.0E-04
+EDIFFG=-0.005 #convergence case (max force)
+ENMAX=274.0
+PREC=Normal
+LREAL=Auto
+#ISPIN=2
+ISIF=0
+LWAVE=.FALSE.
+LCHARG=.FALSE.
+LPLANE=.TRUE.
+IALGO=48
+NCORE=4

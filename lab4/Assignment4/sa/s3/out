@@ -1,0 +1,140 @@
+0.147340402973
+Found better P:  -161.318390984
+Found better P:  -161.654788885
+Found better P:  -162.238469698
+Found better P:  -162.663284064
+Found better P:  -162.99604389
+Found better P:  -163.007618281
+Found better P:  -163.393674548
+Found better P:  -163.592739108
+Found better P:  -164.254862972
+Found better P:  -164.435454296
+Found better P:  -164.763950613
+Found better P:  -165.061750092
+Found better P:  -165.766856799
+Found better P:  -166.045462685
+Found better P:  -166.052881205
+Found better P:  -166.281580009
+Found better P:  -166.678555129
+Found better P:  -166.711402782
+Found better P:  -166.758345413
+Found better P:  -166.926839304
+Found better P:  -167.102459492
+Found better P:  -167.152767045
+Found better P:  -167.454791199
+Found better P:  -167.50126562
+Found better P:  -167.749435538
+Found better P:  -167.784065678
+Found better P:  -167.825601005
+Found better P:  -168.005627212
+Found better P:  -168.060980523
+Found better P:  -168.074403795
+Found better P:  -168.096907627
+Found better P:  -168.240978669
+Found better P:  -168.316090184
+Found better P:  -168.381161765
+Found better P:  -168.414625506
+Found better P:  -168.524071571
+Found better P:  -168.672286126
+Found better P:  -168.749775014
+Found better P:  -168.802591874
+Found better P:  -168.804126326
+Found better P:  -168.89293699
+Found better P:  -169.017971941
+Found better P:  -169.081018519
+Found better P:  -169.289279825
+Found better P:  -169.560233195
+Found better P:  -169.629641059
+Found better P:  -169.799781964
+Found better P:  -169.90834666
+Found better P:  -169.974550039
+Found better P:  -169.995718933
+Found better P:  -170.006703428
+Found better P:  -170.07487795
+Found better P:  -170.14556119
+Found better P:  -170.147304754
+Found better P:  -170.200008143
+Found better P:  -170.292832915
+Found better P:  -170.326197372
+Found better P:  -170.354365876
+Found better P:  -170.367630703
+Found better P:  -170.389902761
+Found better P:  -170.421419895
+Found better P:  -170.427107232
+Found better P:  -170.484533772
+Found better P:  -170.512688483
+Found better P:  -170.559611507
+Found better P:  -170.589256693
+Found better P:  -170.60430458
+Found better P:  -170.621644049
+Found better P:  -170.678269655
+Found better P:  -170.728429104
+Found better P:  -170.759012392
+Found better P:  -170.766815289
+Found better P:  -170.788745237
+Found better P:  -170.794288701
+Found better P:  -170.800057085
+Found better P:  -170.849154066
+Found better P:  -170.851318101
+Found better P:  -170.854691471
+Found better P:  -170.856618188
+Found better P:  -170.881913352
+Found better P:  -170.915853321
+Found better P:  -170.919069691
+Found better P:  -170.932276321
+Found better P:  -170.950049738
+Found better P:  -170.97602066
+Found better P:  -171.002838556
+Found better P:  -171.029567084
+Found better P:  -171.038339351
+Found better P:  -171.044333016
+Found better P:  -171.062641645
+Found better P:  -171.067237947
+Found better P:  -171.078354781
+Found better P:  -171.088126854
+Found better P:  -171.125603589
+Found better P:  -171.139279645
+Found better P:  -171.161539682
+Found better P:  -171.166981669
+Found better P:  -171.176784107
+Found better P:  -171.196961923
+Found better P:  -171.209816277
+Found better P:  -171.214655035
+Found better P:  -171.216726789
+Found better P:  -171.219650489
+Found better P:  -171.224481677
+Found better P:  -171.241082063
+Found better P:  -171.243817376
+Found better P:  -171.265272722
+Found better P:  -171.266976622
+Found better P:  -171.267746007
+SDLBFGS:   0  05:25:11 -171.2653654856     6.091296
+SDLBFGS:   1  05:25:11 -171.3188999058     3.276855
+SDLBFGS:   2  05:25:11 -171.3361055226     1.902972
+SDLBFGS:   3  05:25:11 -171.3484632339     1.258861
+SDLBFGS:   4  05:25:11 -171.3513632580     1.614165
+SDLBFGS:   5  05:25:11 -171.3537139928     0.674841
+SDLBFGS:   6  05:25:11 -171.3547580596     0.488490
+SDLBFGS:   7  05:25:11 -171.3554631549     0.444332
+SDLBFGS:   8  05:25:11 -171.3560219620     0.751157
+SDLBFGS:   9  05:25:11 -171.3565470888     0.244526
+SDLBFGS:  10  05:25:11 -171.3567066583     0.213956
+SDLBFGS:  11  05:25:11 -171.3569828785     0.201904
+SDLBFGS:  12  05:25:11 -171.3571442178     0.251519
+SDLBFGS:  13  05:25:11 -171.3572156754     0.165604
+SDLBFGS:  14  05:25:11 -171.3572497287     0.072319
+SDLBFGS:  15  05:25:11 -171.3572656101     0.063116
+SDLBFGS:  16  05:25:11 -171.3572906676     0.076240
+SDLBFGS:  17  05:25:11 -171.3573026218     0.120301
+SDLBFGS:  18  05:25:11 -171.3573164410     0.036825
+SDLBFGS:  19  05:25:11 -171.3573201459     0.026014
+SDLBFGS:  20  05:25:11 -171.3573237172     0.028152
+SDLBFGS:  21  05:25:11 -171.3573284091     0.027577
+SDLBFGS:  22  05:25:11 -171.3573298181     0.050341
+SDLBFGS:  23  05:25:11 -171.3573330996     0.016288
+SDLBFGS:  24  05:25:11 -171.3573342021     0.015438
+SDLBFGS:  25  05:25:11 -171.3573358202     0.015587
+SDLBFGS:  26  05:25:11 -171.3573365477     0.028695
+SDLBFGS:  27  05:25:11 -171.3573374700     0.006209
+Optimized P:  -171.35733747
+done

@@ -1,0 +1,48 @@
+ running on    8 total cores
+ distrk:  each k-point on    8 cores,    1 groups
+ distr:  one band on    4 cores,    2 groups
+ using from now: INCAR     
+ vasp.5.4.1 24Jun15 (build Jan 06 2016 13:10:00) complex                        
+  
+ POSCAR found type information on POSCAR  Sr Fe O 
+ POSCAR found :  3 types and       5 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
+|                                                                             |
+|      You have a (more or less) 'small supercell' and for smaller cells      |
+|      it is recommended  to use the reciprocal-space projection scheme!      |
+|      The real space optimization is not  efficient for small cells and it   |
+|      is also less accurate ...                                              |
+|      Therefore set LREAL=.FALSE. in the  INCAR file                         |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Ceperly-Alder, standard interpolation
+ POSCAR found type information on POSCAR  Sr Fe O 
+ POSCAR found :  3 types and       5 ions
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ WARNING: small aliasing (wrap around) errors must be expected
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.329284168082E+03    0.32928E+03   -0.16938E+04  1192   0.117E+03
+DAV:   2    -0.178655075777E+02   -0.34715E+03   -0.33633E+03  1132   0.396E+02
+DAV:   3    -0.371041939579E+02   -0.19239E+02   -0.19005E+02  1536   0.991E+01
+DAV:   4    -0.376739642357E+02   -0.56977E+00   -0.56713E+00  1708   0.128E+01
+DAV:   5    -0.376825308735E+02   -0.85666E-02   -0.85476E-02  1460   0.134E+00    0.268E+01
+RMM:   6    -0.432176228315E+02   -0.55351E+01   -0.12431E+02  1237   0.881E+01    0.416E+01
+RMM:   7    -0.321243951154E+02    0.11093E+02   -0.31391E+01  1162   0.397E+01    0.166E+01
+RMM:   8    -0.320500490242E+02    0.74346E-01   -0.59633E-01  1209   0.592E+00    0.121E+01
+RMM:   9    -0.315592365367E+02    0.49081E+00   -0.32799E+00  1149   0.124E+01    0.240E+00
+RMM:  10    -0.314835325934E+02    0.75704E-01   -0.99229E-02  1193   0.229E+00    0.192E+00
+RMM:  11    -0.314658131625E+02    0.17719E-01   -0.16868E-01  1126   0.285E+00    0.519E-01
+RMM:  12    -0.314712483454E+02   -0.54352E-02   -0.99558E-03  1022   0.720E-01    0.588E-01
+RMM:  13    -0.314682260578E+02    0.30223E-02   -0.81315E-03   932   0.644E-01    0.136E-01
+RMM:  14    -0.314679015719E+02    0.32449E-03   -0.14034E-03   687   0.194E-01
+   1 F= -.31467902E+02 E0= -.31467902E+02  d E =-.314679E+02  mag=     4.0858
+ BRION: g(F)=  0.000E+00 g(S)=  0.000E+00
+ reached required accuracy - stopping structural energy minimisation

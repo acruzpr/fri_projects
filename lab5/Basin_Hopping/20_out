@@ -1,0 +1,131 @@
+BasinHopping: step -1, energy      -69.735719, emin      -69.735719, dr        0.300000
+BasinHopping: step 0, energy      -72.615436, emin      -72.615436, dr        0.300000
+BasinHopping: step 1, energy      -77.177042, emin      -77.177042, dr        0.300000
+force calls:  206
+pe:  -77.177041733
+BasinHopping: step -1, energy      -69.735719, emin      -69.735719, dr        0.300000
+BasinHopping: step 0, energy      -72.971267, emin      -72.971267, dr        0.300000
+BasinHopping: step 1, energy      -72.286377, emin      -72.971267, dr        0.300000
+BasinHopping: step 2, energy      -72.631229, emin      -72.971267, dr        0.300000
+BasinHopping: step 3, energy      -75.311308, emin      -75.311308, dr        0.300000
+BasinHopping: step 4, energy      -75.334747, emin      -75.334747, dr        0.300000
+BasinHopping: step 5, energy      -75.589289, emin      -75.589289, dr        0.300000
+BasinHopping: step 6, energy      -73.241604, emin      -75.589289, dr        0.300000
+BasinHopping: step 7, energy      -73.342159, emin      -75.589289, dr        0.300000
+BasinHopping: step 8, energy      -72.344053, emin      -75.589289, dr        0.300000
+BasinHopping: step 9, energy      -72.343372, emin      -75.589289, dr        0.300000
+BasinHopping: step 10, energy      -75.589288, emin      -75.589289, dr        0.300000
+BasinHopping: step 11, energy      -73.612881, emin      -75.589289, dr        0.300000
+BasinHopping: step 12, energy      -72.982675, emin      -75.589289, dr        0.300000
+BasinHopping: step 13, energy      -75.638404, emin      -75.638404, dr        0.300000
+BasinHopping: step 14, energy      -73.512815, emin      -75.638404, dr        0.300000
+BasinHopping: step 15, energy      -74.638650, emin      -75.638404, dr        0.300000
+BasinHopping: step 16, energy      -72.283963, emin      -75.638404, dr        0.300000
+BasinHopping: step 17, energy      -75.589288, emin      -75.638404, dr        0.300000
+BasinHopping: step 18, energy      -75.589289, emin      -75.638404, dr        0.300000
+BasinHopping: step 19, energy      -73.281064, emin      -75.638404, dr        0.300000
+BasinHopping: step 20, energy      -75.638404, emin      -75.638404, dr        0.300000
+BasinHopping: step 21, energy      -70.570214, emin      -75.638404, dr        0.300000
+BasinHopping: step 22, energy      -72.236129, emin      -75.638404, dr        0.300000
+BasinHopping: step 23, energy      -75.638404, emin      -75.638404, dr        0.300000
+BasinHopping: step 24, energy      -74.734963, emin      -75.638404, dr        0.300000
+BasinHopping: step 25, energy      -73.363430, emin      -75.638404, dr        0.300000
+BasinHopping: step 26, energy      -73.054964, emin      -75.638404, dr        0.300000
+BasinHopping: step 27, energy      -75.638404, emin      -75.638404, dr        0.300000
+BasinHopping: step 28, energy      -72.916678, emin      -75.638404, dr        0.300000
+BasinHopping: step 29, energy      -70.631200, emin      -75.638404, dr        0.300000
+BasinHopping: step 30, energy      -77.177042, emin      -77.177042, dr        0.300000
+force calls:  2609
+pe:  -77.1770416869
+BasinHopping: step -1, energy      -69.735719, emin      -69.735719, dr        0.300000
+BasinHopping: step 0, energy      -72.056827, emin      -72.056827, dr        0.300000
+BasinHopping: step 1, energy      -72.832139, emin      -72.832139, dr        0.300000
+BasinHopping: step 2, energy      -71.808588, emin      -72.832139, dr        0.300000
+BasinHopping: step 3, energy      -73.363431, emin      -73.363431, dr        0.300000
+BasinHopping: step 4, energy      -75.251537, emin      -75.251537, dr        0.300000
+BasinHopping: step 5, energy      -73.364559, emin      -75.251537, dr        0.300000
+BasinHopping: step 6, energy      -74.782589, emin      -75.251537, dr        0.300000
+BasinHopping: step 7, energy      -72.051411, emin      -75.251537, dr        0.300000
+BasinHopping: step 8, energy      -75.311308, emin      -75.311308, dr        0.300000
+BasinHopping: step 9, energy      -75.589288, emin      -75.589288, dr        0.300000
+BasinHopping: step 10, energy      -73.683757, emin      -75.589288, dr        0.300000
+BasinHopping: step 11, energy      -75.315506, emin      -75.589288, dr        0.300000
+BasinHopping: step 12, energy      -73.881616, emin      -75.589288, dr        0.300000
+BasinHopping: step 13, energy      -72.967326, emin      -75.589288, dr        0.300000
+BasinHopping: step 14, energy      -76.299900, emin      -76.299900, dr        0.300000
+BasinHopping: step 15, energy      -77.177042, emin      -77.177042, dr        0.300000
+force calls:  1416
+pe:  -77.1770419764
+BasinHopping: step -1, energy      -69.735719, emin      -69.735719, dr        0.300000
+BasinHopping: step 0, energy      -72.370672, emin      -72.370672, dr        0.300000
+BasinHopping: step 1, energy      -77.177042, emin      -77.177042, dr        0.300000
+force calls:  244
+pe:  -77.1770419222
+BasinHopping: step -1, energy      -69.735719, emin      -69.735719, dr        0.300000
+BasinHopping: step 0, energy      -72.394921, emin      -72.394921, dr        0.300000
+BasinHopping: step 1, energy      -73.016128, emin      -73.016128, dr        0.300000
+BasinHopping: step 2, energy      -74.825215, emin      -74.825215, dr        0.300000
+BasinHopping: step 3, energy      -72.647557, emin      -74.825215, dr        0.300000
+BasinHopping: step 4, energy      -75.589289, emin      -75.589289, dr        0.300000
+BasinHopping: step 5, energy      -74.575374, emin      -75.589289, dr        0.300000
+BasinHopping: step 6, energy      -73.188883, emin      -75.589289, dr        0.300000
+BasinHopping: step 7, energy      -73.263247, emin      -75.589289, dr        0.300000
+BasinHopping: step 8, energy      -77.177042, emin      -77.177042, dr        0.300000
+force calls:  759
+pe:  -77.1770419316
+BasinHopping: step -1, energy      -69.735719, emin      -69.735719, dr        0.300000
+BasinHopping: step 0, energy      -75.589288, emin      -75.589288, dr        0.300000
+BasinHopping: step 1, energy      -72.214247, emin      -75.589288, dr        0.300000
+BasinHopping: step 2, energy      -77.177042, emin      -77.177042, dr        0.300000
+force calls:  394
+pe:  -77.1770417754
+BasinHopping: step -1, energy      -69.735719, emin      -69.735719, dr        0.300000
+BasinHopping: step 0, energy      -77.177042, emin      -77.177042, dr        0.300000
+force calls:  161
+pe:  -77.177041658
+BasinHopping: step -1, energy      -69.735719, emin      -69.735719, dr        0.300000
+BasinHopping: step 0, energy      -73.042274, emin      -73.042274, dr        0.300000
+BasinHopping: step 1, energy      -71.109639, emin      -73.042274, dr        0.300000
+BasinHopping: step 2, energy      -75.600436, emin      -75.600436, dr        0.300000
+BasinHopping: step 3, energy      -76.299900, emin      -76.299900, dr        0.300000
+BasinHopping: step 4, energy      -73.548806, emin      -76.299900, dr        0.300000
+BasinHopping: step 5, energy      -72.683010, emin      -76.299900, dr        0.300000
+BasinHopping: step 6, energy      -73.125521, emin      -76.299900, dr        0.300000
+BasinHopping: step 7, energy      -77.177042, emin      -77.177042, dr        0.300000
+force calls:  727
+pe:  -77.1770419218
+BasinHopping: step -1, energy      -69.735719, emin      -69.735719, dr        0.300000
+BasinHopping: step 0, energy      -75.365002, emin      -75.365002, dr        0.300000
+BasinHopping: step 1, energy      -72.110524, emin      -75.365002, dr        0.300000
+BasinHopping: step 2, energy      -75.589289, emin      -75.589289, dr        0.300000
+BasinHopping: step 3, energy      -72.840996, emin      -75.589289, dr        0.300000
+BasinHopping: step 4, energy      -75.638404, emin      -75.638404, dr        0.300000
+BasinHopping: step 5, energy      -74.288435, emin      -75.638404, dr        0.300000
+BasinHopping: step 6, energy      -75.638404, emin      -75.638404, dr        0.300000
+BasinHopping: step 7, energy      -77.177042, emin      -77.177042, dr        0.300000
+force calls:  758
+pe:  -77.1770420063
+BasinHopping: step -1, energy      -69.735719, emin      -69.735719, dr        0.300000
+BasinHopping: step 0, energy      -72.265492, emin      -72.265492, dr        0.300000
+BasinHopping: step 1, energy      -75.638404, emin      -75.638404, dr        0.300000
+BasinHopping: step 2, energy      -73.167301, emin      -75.638404, dr        0.300000
+BasinHopping: step 3, energy      -72.713067, emin      -75.638404, dr        0.300000
+BasinHopping: step 4, energy      -76.299900, emin      -76.299900, dr        0.300000
+BasinHopping: step 5, energy      -73.619227, emin      -76.299900, dr        0.300000
+BasinHopping: step 6, energy      -72.434481, emin      -76.299900, dr        0.300000
+BasinHopping: step 7, energy      -74.123262, emin      -76.299900, dr        0.300000
+BasinHopping: step 8, energy      -72.135309, emin      -76.299900, dr        0.300000
+BasinHopping: step 9, energy      -75.315506, emin      -76.299900, dr        0.300000
+BasinHopping: step 10, energy      -72.327249, emin      -76.299900, dr        0.300000
+BasinHopping: step 11, energy      -73.408716, emin      -76.299900, dr        0.300000
+BasinHopping: step 12, energy      -73.215950, emin      -76.299900, dr        0.300000
+BasinHopping: step 13, energy      -75.251537, emin      -76.299900, dr        0.300000
+BasinHopping: step 14, energy      -73.281064, emin      -76.299900, dr        0.300000
+BasinHopping: step 15, energy      -76.299900, emin      -76.299900, dr        0.300000
+BasinHopping: step 16, energy      -75.421420, emin      -76.299900, dr        0.300000
+BasinHopping: step 17, energy      -75.251537, emin      -76.299900, dr        0.300000
+BasinHopping: step 18, energy      -71.828440, emin      -76.299900, dr        0.300000
+BasinHopping: step 19, energy      -77.177042, emin      -77.177042, dr        0.300000
+force calls:  1780
+pe:  -77.1770420089
+avg:  905

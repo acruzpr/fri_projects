@@ -1,0 +1,16 @@
+#!/bin/bash
+#
+#$ -cwd
+#$ -j y
+#$ -N second
+#$ -m es
+#$ -V
+#$ -M brian.mathew.richer@gmail.com
+#$ -pe mpi8 8
+#$ -o ll_out
+#$ -S /bin/bash
+
+mpirun -n $NSLOTS vasp
+
+
+

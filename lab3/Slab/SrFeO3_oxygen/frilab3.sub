@@ -1,0 +1,24 @@
+#!/bin/bash
+#
+#$ -cwd
+#$ -j y
+#$ -N Sr_O
+#$ -m es
+#$ -V
+#$ -M youremail
+#$ -pe mpi8 8
+#$ -o ll_out
+#$ -S /bin/bash
+
+mpirun -n $NSLOTS vasp
+
+vfin.pl min24
+
+mpirun -n $NSLOTS vasp
+
+vfin.pl min25
+
+mpirun -n $NSLOTS vasp
+
+
+
