@@ -11,6 +11,7 @@ import sys
 from bcm import BCM
 import traceback
 import copy
+import random
 
 
 class BasinHopping(Dynamics):
@@ -39,9 +40,11 @@ class BasinHopping(Dynamics):
                  target_ratio = 0.5,
                  adjust_fraction = 0.05,
                  pushapart = 0.4,
-                 jumpmax=None
+                 jumpmax=None,
+                 inertia_weight=.5
                  ):
         Dynamics.__init__(self, atoms, logfile, trajectory)
+        self.local_optimizations = 0
         self.kT = temperature
         self.optimizer = optimizer
         self.fmax = fmax
@@ -52,7 +55,7 @@ class BasinHopping(Dynamics):
         self.optimizer_logfile = optimizer_logfile
         self.lm_trajectory = local_minima_trajectory
         if isinstance(local_minima_trajectory, str):
-            tsase.io.write_con(self.lm_trajectory,atoms,w='w')
+            tsase.io.write_con(self.lm_trajectory,atoms,w='a')
         self.minenergy = minenergy
         self.energy = 0
         self.adjust_step = adjust_step_size
@@ -62,7 +65,10 @@ class BasinHopping(Dynamics):
         self.pushapart = pushapart
         self.jumpmax = jumpmax
         self.mss = mss
+        self.inertia_weight = inertia_weight
+        self.velocity = 0.0 * self.atoms.get_positions()
         self.initialize()
+
 
     def initialize(self):
         self.positions = 0.0 * self.atoms.get_positions()
@@ -73,10 +79,9 @@ class BasinHopping(Dynamics):
         self.call_observers()
         self.bcm_calculator = BCM
         self.bcm_changed = True
-        self.bcm = self.get_bcm()
         self.log(-1, self.Emin, self.Emin,self.dr)
 
-    def run(self, steps):
+    def run(self, steps, bests):
         """Hop the basins for defined number of steps."""
         self.steps = 0
         ro = self.positions
@@ -87,7 +92,7 @@ class BasinHopping(Dynamics):
             En = None
             self.steps += 1
             while En is None:
-                rn = self.move(ro)
+                rn = self.move(ro, bests)
                 En = self.get_energy(rn)
             if En < self.Emin:
                 self.Emin = En
@@ -106,6 +111,7 @@ class BasinHopping(Dynamics):
                 rejectnum = 0
                 ro = rn.copy()
                 Eo = En
+                self.bcm_changed = True
                 if self.lm_trajectory is not None:
                     tsase.io.write_con(self.lm_trajectory,self.atoms,w='a')
             else:
@@ -129,13 +135,24 @@ class BasinHopping(Dynamics):
                            % (name, step, En, Emin,dr))
         self.logfile.flush()
 
-    def move(self, ro):
+    def __str__(self):
+        return 'energy %15.6f, emin %15.6f, dr %15.6f' % (self.get_energy(), self.Emin, self.dr)
+
+    def __repr__(self):
+        return self.__str__()
+
+    def move(self, ro, bests):
         """Move atoms by a random step."""
         atoms = self.atoms
+        velocity = self.velocity
 
-        #change this!!
-        disp = None
-        rn = ro + disp
+        # PSO heuristic
+        for i in range(len(ro)):
+            for j in range(3):
+                velocity[i][j] = self.inertia_weight*velocity[i][j] + random.uniform(0,2)*(self.rmin[i][j]-ro[i][j]) + random.uniform(0,2)*(bests[-1].positions[i][j]-ro[i][j])
+
+        self.velocity = velocity
+        rn = ro + self.velocity
         rn = self.push_apart(rn)
         atoms.set_positions(rn)
 
@@ -144,7 +161,7 @@ class BasinHopping(Dynamics):
 
         rn = atoms.get_positions()
         world.broadcast(rn, 0)
-        self.bcm_changed = True
+
         atoms.set_positions(rn)
         return atoms.get_positions()
 
@@ -157,7 +174,7 @@ class BasinHopping(Dynamics):
     def get_energy(self, positions=None):
         #print 'getting energy, pos: ', positions
         if  positions is None:
-            print 'energy is: ', self.energy
+            #print 'energy is: ', self.energy
             return self.energy
         """Return the energy of the nearest local minimum."""
         if np.sometrue(self.positions != positions):
@@ -171,6 +188,7 @@ class BasinHopping(Dynamics):
                 opt.run(fmax=self.fmax)
                 self.energy = self.atoms.get_potential_energy()
                 #print 'energy good ', self.energy
+                self.local_optimizations += 1
             except:
                 print 'Exception: ', sys.exc_info()[0]
                 traceback.print_exc()
